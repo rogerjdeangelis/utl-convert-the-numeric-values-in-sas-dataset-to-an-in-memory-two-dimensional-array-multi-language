@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_diagonal_sums",
+  "source_file": "utl-convert-the-numeric-values-in-sas-dataset-to-an-in-memory-two-dimensional-array-multi-language.sas",
+  "source_blob_sha": "a52f90b501e5599f34a85b56ae61009eda67fba0",
+  "source_commit": "49cb6b5f99f74c1b3e6e115f801abeaea602f25d",
+  "notes": "Sections 2-3: the post's centerpiece computation. Builds HAVE (as in t001), loads its 9 numeric columns into a 9x9 in-memory array, then runs the post's diagonal / anti-diagonal summation loop verbatim. Substitutions for a self-contained run: LIBNAME d:/sd1 -> WORK; the %utl_numary macro (which pipes the array literal through the Windows clipboard via filename clp clipbrd) is replaced by loading HAVE directly into the array; DIM1(xy)/DIM2(xy) written as DIM(xy,1)/DIM(xy,2). Result DIAGONAL=10, ANTI_DIAGONAL=18 matches the post."
+}
