@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_matrix_builder",
+  "source_file": "utl-convert-the-numeric-values-in-sas-dataset-to-an-in-memory-two-dimensional-array-multi-language.sas",
+  "source_blob_sha": "a52f90b501e5599f34a85b56ae61009eda67fba0",
+  "source_commit": "49cb6b5f99f74c1b3e6e115f801abeaea602f25d",
+  "notes": "Section 2 (input) of the post: DATA step builds a 9x9 matrix dataset HAVE using array cols[9], nested do-loops, cats/put(z3.). Only edit: LIBNAME sd1 'd:/sd1' rewritten to WORK so the step is self-contained. Output (R101-R109, diagonal 1s + anti-diagonal 2s) matches the documented SD1.HAVE table in the post."
+}
